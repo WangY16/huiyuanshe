@@ -1,0 +1,161 @@
+.submit-status-box {
+	padding:10px;
+	height:40px;
+	text-align: center;	
+}
+
+
+.submit-status {
+	color: #20B907;
+	background: url("/images/tps/i4/ui-fm-loading.gif") right bottom no-repeat;
+	padding-right: 15px;
+	margin-left: 5px;
+}
+.fn-hide {
+	display: none;
+}
+
+.normal_list_item {
+	*zoom: 1;
+	border-top: 1px solid #e7e7eb;
+	padding: 10px 0
+}
+
+.normal_list_item:after {
+	content: "\200B";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.normal_list_item:first-child {
+	border-top-width: 0
+}
+
+.normal_list_item.no_extra {
+	border-bottom-width: 0
+}
+
+.normal_list_item:hover {
+	background-color: #fff
+}
+
+.normal_list_item h4 {
+	float: left;
+	width: 100px;
+	margin-right: 20px;
+	font-weight: 400;
+	font-style: normal
+}
+
+.normal_list_item .meta_opr {
+	float: right;
+	margin-left: 16px;
+	word-wrap: break-word;
+	word-break: break-all;
+	text-align: right;
+	color: #8d8d8d
+}
+
+.normal_list_item .meta_opr .btn {
+	background-color: #fff;
+	background-image: -moz-linear-gradient(top, #fff 0, #fff 100%);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff),
+		to(#fff) );
+	background-image: -webkit-linear-gradient(top, #fff 0, #fff 100%);
+	background-image: -o-linear-gradient(top, #fff 0, #fff 100%);
+	background-image: linear-gradient(to bottom, #fff 0, #fff 100%);
+	border-color: #e6e7ec;
+	color: #222;
+	height: 30px;
+	line-height: 30px;
+	*line-height: 28px;
+	width: auto;
+	padding-left: 14px;
+	padding-right: 14px
+}
+
+.normal_list_item .meta_opr .btn button {
+	color: #222
+}
+
+.normal_list_item .meta_opr .btn:hover {
+	background-color: #e6e7ec;
+	background-image: -moz-linear-gradient(top, #e6e7ec 0, #e6e7ec 100%);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e7ec),
+		to(#e6e7ec) );
+	background-image: -webkit-linear-gradient(top, #e6e7ec 0, #e6e7ec 100%);
+	background-image: -o-linear-gradient(top, #e6e7ec 0, #e6e7ec 100%);
+	background-image: linear-gradient(to bottom, #e6e7ec 0, #e6e7ec 100%);
+	border-color: #dadbe0;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	color: #000
+}
+
+.normal_list_item .meta_opr .btn:hover button {
+	color: #222
+}
+
+.normal_list_item .meta_opr a {
+	margin-left: 14px
+}
+
+.normal_list_item .meta_content {
+	display: table-cell;
+	vertical-align: top;
+	float: none;
+	width: auto;
+	*display: block;
+	*zoom: 1;
+	word-wrap: break-word;
+	word-break: break-all
+}
+
+.normal_list_item .meta_content:after {
+	content:
+		" . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+	visibility: hidden;
+	clear: both;
+	height: 0 !important;
+	display: block;
+	line-height: 0
+}
+
+.normal_list_item .meta_content .avatar {
+	width: 80px;
+	height: 80px;
+	background: transparent
+		url(/mpres/htmledition/images/icon/page-setting/avatar/icon_avatar_default1eae8e.png)
+		no-repeat 0 0
+}
+
+.normal_list_item .meta_content .dropdown_menu {
+	margin-right: 16px;
+	vertical-align: top
+}
+
+.normal_list_item .meta_content .icon_verify_checked {
+	margin-top: -3px;
+	margin-left: 3px
+}
+
+.normal_list_item .meta_content .tips {
+	color: #8d8d8d
+}
+
+.normal_list_item .meta_content .meta_preview {
+	margin-top: 6px
+}
+
+.normal_list_item .meta_content .meta_preview img {
+	width: 224px;
+	height: 149px
+}
+
+.normal_list_item .meta_content .meta_preview p {
+	color: #a3a3a3;
+	margin-top: -6px;
+	padding-left: 88px
+}

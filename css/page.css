@@ -1,0 +1,17 @@
+
+.pageDiv{border-top:none; padding:5px 6px 3px; zoom:1;height: 32px; width: 98.5%;}
+.pageDiv p{float:left;color:#474747;font-size:13px;padding-left:15px;}
+.pageDiv .pageL p span{margin:5px;color:#000;}
+.BtnGray{width:51px; height:22px;cursor:pointer; margin:0;}
+.pageL{float:left;padding-top:2px;}
+.pageL a{color:#000;text-decoration:none;margin:6px;}
+.pageL a.resentT{font-weight:bold;}
+.pageL a:hover{font-weight:bold; text-decoration:underline;}
+.pageR{float:right;padding-right: 15px;}
+.pageR p a{float:left;cursor:pointer;margin:0 2px;padding:2px 5px;color:#474747; text-decoration:none; border:1px solid #cdcdcd;background-color:#fff;}
+.pageR a.resentP{color:#FFF;background-color:#b7b7b7;}
+.pageR a:hover{text-decoration:none;display:block;color:#000;border:1px solid #b7b7b7;background-color:#efefef;}
+.pageL a.resentT{color:#c42a20;}
+.pageL a:hover{color:#c42a20;}
+.W30{width:30px;}.W100{width:100px;}.W120{width:120px;}.W130{width:130px;}.W200{width:200px;}.W400{width:400px;}/*添加宽度，请按照从小到大排列*/
+.txt{height:22px; line-height:22px; border:1px solid #999; box-shadow:1px 1px 1px #bfbfbf inset; -moz-box-shadow:1px 1px 1px #bfbfbf inset; -webkit-box-shadow:1px 1px 1px #bfbfbf inset;}

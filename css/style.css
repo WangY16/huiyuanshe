@@ -1,0 +1,21 @@
+
+.img-div ol {
+	position: relative;
+	width: 120px;
+	height: 20px;
+	top: -60px;
+	left: 660px;
+}
+
+.img-div ol li {
+	float: left;
+	width: 18px;
+	height: 8px;
+	border-radius: 4px;
+	margin: 5px;
+	background: #fff;
+}
+
+.img-div ol li.seleted {
+	background: #049a29;
+}

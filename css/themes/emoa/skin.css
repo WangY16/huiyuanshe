@@ -1,0 +1,296 @@
+/* 姒涙垼澹婇惃顔垮亞 */
+/*娑撹缍�/
+a:hover{color:#ac2436; text-decoration:underline;}
+.IndTable tbody tr td a:hover{color:#d20505;}
+.bg_index{ background:#fff url(images/IndLeftBg.png) repeat-y;}
+.bg_main{background:#fff url(images/IndLeftBgm.png) repeat-y;}
+/*婢舵挳鍎撮弽宄扮础*/
+.Header{background:url(images/topbg.gif) repeat-x;}
+.TopTool{background:url(images/topToolBg.jpg) left center no-repeat;}
+.TopTool li{background:url(images/topToolBg2.jpg) repeat-x;}
+.TopTool li.TopToolBg{background:#b8b8b8;}
+.TopTool li b{color:#4c4c4c;}
+.TopTool li:hover b{color:#4c4c4c;}
+.TopTool li a{color:#4c4c4c;text-decoration:none;}
+
+.phoneCall ol{background:url(images/phoneC.png) no-repeat;color:#fff;}
+/*鐎佃壈鍩呴弽锟�
+.MenuDiv{background:url(images/MenuBg.jpg) repeat-x;}
+.MenuDiv li ul{background:#000;}
+.MenuDiv li ul li{color:#fff;}
+.MenuDiv li ul li.NextUL{background:url(images/xsj.gif) 110px center no-repeat;}
+.MenuDiv li ul li.NextULBj{background:#333 url(images/xsj.gif) 110px center no-repeat;}
+.MenuDiv li ul li ul{background:#222;}
+.MenuDiv li.hoverBj{background:#333;}
+/*閹稿鎸崇紒锟�
+.BtnL2{background:url(images/btnbg.png) repeat-x; height:22px; line-height:22px; border:none; color:#fff; margin:10px 5px; overflow:visible; padding:0 10px;cursor:pointer; border-radius:2px;}
+.BtnL3{background:url(images/btnbg.png) repeat-x; height:22px; line-height:22px; border:none; color:#fff; margin:10px 5px; overflow:visible; padding:0 10px;cursor:pointer; border-radius:2px;}
+.BtnL4{background:url(images/btnbg.png) repeat-x; height:22px; line-height:22px; border:none; color:#fff; margin:10px 5px; overflow:visible; padding:0 10px;cursor:pointer; border-radius:2px;}
+.BtnL6{background:url(images/btnbg.png) repeat-x; height:22px; line-height:22px; border:none; color:#fff; margin:10px 5px; overflow:visible; padding:0 10px;cursor:pointer; border-radius:2px;}
+.BtnL8{background:url(images/btnbg.png) repeat-x; height:22px; line-height:22px; border:none; color:#fff; margin:10px 5px; overflow:visible; padding:0 10px;cursor:pointer; border-radius:2px;}
+.BtnGray{background:url(images/btGray2.gif) no-repeat;border:none;}
+/*鏉堟挸鍙嗗锟�
+.MInputTT,textarea,.MInputTT2,.MInputRL,.MInputTI,.MInputRen,.MInputRen1,.MInputJG,.MInputSj,.MInputKh,.lxr,.dw{border:1px solid #b4b4b4;}
+/*閸撳秴褰村Ο鈥虫健*/
+.FontRB{color:#AC2436;}
+.UserInfo,IndRInput{border:1px solid #d9d9d9; background:#ececec;}
+.UserInfo ul{background-color:#CCC;}
+.IndRInput{border:1px solid #d9d9d9; background:#ececec;}
+.TitleDiv ul{ background:#dcdcdc;}
+.DFK_div{background:#fff;border:1px solid #ebebeb;}
+.IndDBList{border:1px solid #b3b3b3;border-top:none;background:#f4f4f4;border-bottom-color:#b3b3b3;}
+.DFK_Tab{background:url(images/dian.gif) 0 24px repeat-x;}
+.DFK_Tab li{ background:url(images/TabBg1.jpg) 0 0 repeat-x; border:1px solid #b3b3b3; border-bottom-color:#b3b3b3;}
+.DFK_Tab li.LiOver{background:#fff; border-bottom-color:#fff;}
+.MainLeft{background: url(images/leftBorBg.jpg) right top repeat-y #f7f7f7; border-right:1px solid #fff;}
+.searchDiv{background:url(images/searchbg.png) no-repeat left;}
+.searchDiv input.SeaBtn{background:url(images/searchbt.png) no-repeat;}
+.DTableList{border-left:1px solid #cfcfcf; border-top:1px solid #cfcfcf;}
+.DTableList td{border-bottom:1px solid #cfcfcf; border-right:1px solid #cfcfcf; }
+.DTableList thead tr td{background:#e4e4e4;color:#474747;}
+.DTableList tfoot tr td.TDPage{background:#DBDBDB;}
+.pageDiv,.pageDiv2{background:#f1f1f1; border:1px solid #cfcfcf;border-top:none;}
+.pageR p a{color:#474747;border:1px solid #cdcdcd;background-color:#fff;}
+.pageR a.resentP{color:#FFF;background-color:#b7b7b7;}
+.pageR a:hover{color:#000;border:1px solid #b7b7b7;background-color:#efefef;}
+.pageL a.resentT{color:#c42a20;}
+.pageL a:hover{color:#c42a20;}
+.DataShowTable{border-left:1px solid #cecece; border-top:1px solid #cecece;}
+.DataShowTable td{border-bottom:1px solid #cecece; border-right:1px solid #cecece;}
+.DataShowTable tbody tr.EvenTr{ background:#f5f5f5; }
+.LeftGNK ol{background:url(images/leftToolBg2.jpg) 0 1px repeat-y;border-bottom:1px solid #dcdcdb;}
+.LeftGNK ol span{background:url(images/leftT2.png) 5px 9px no-repeat;}
+.LeftGNK ol span.LiOver{background-image:url(images/leftT1.png);}
+.TabList li{background:url(images/TabsBg3.png) 0 -33px no-repeat;}
+.TabList li.LiOver{background:url(images/TabsBg3.png) 0 0 no-repeat;}
+.TabList li.LiOver span{color:#890000;}
+.TabList li b{background:url(images/close.gif) no-repeat;cursor:pointer;}
+.TabList li b:hover{background:url(images/close_hover.gif) no-repeat;}
+
+.WebPath{border-bottom:1px solid #dddddc; background:url(images/PathBg.jpg) repeat-x; color:#4a4a49;}
+.InfoTitle{background:url(images/ShowTitle.jpg) repeat-x; border-bottom:1px solid #aeaeae;}
+.InfoTitle span{background:url(images/leftT.png) left center no-repeat;}
+.InfoTitle span.up{background:url(images/leftT2.png) left center no-repeat;}
+.InfoTitle span.down{background:url(images/leftT1.png) left center no-repeat;}
+.InfoTitle span{color:#1d1d1d;}
+.BT1{ border-top:1px solid #aeaeae;}
+.RSearchDiv{background:#f7f7f7;border:1px solid #d7d7d7;}
+.RSearchDiv ul li .spbg{border:1px #CCC solid;}
+.RSearchDiv ul li .Lxlist{border:1px solid #CCC;}
+.RSearchDiv ul li .Lxlist li:hover{background:#E8E8E8;}
+.DTableList thead tr td{background:#e4e4e4; color:#474747;}
+.DTableList tbody tr.EvenTr,.DTableList_sj tbody tr.EvenTr{ background:#f5f5f5;}
+.DTableList tbody tr.LiOver,.DTableList_sj tbody tr.LiOver{ background:#e9e9e9;}
+.DTableList_sj{border-left:1px solid #cfcfcf; border-top:1px solid #cfcfcf;background:#fff;}
+.DTableList_sj thead tr td a{color:#ac2436;}
+.DTableList_sj td{border-bottom:1px solid #cfcfcf; border-right:1px solid #cfcfcf;}
+.DTableList_sj thead tr td{background:#e4e4e4;color:#474747;}
+
+.TabCZ{border:1px solid #cfcfcf;background-color:#fff;}
+.TabCZ ul{ background:#fff;}
+.TabCZ ul li{background:url(images/ff.gif) 5px center no-repeat;}
+.TabCZ ul li{color:#525252;}
+.TabCZ ul li:hover{color:#ac2436;}
+.zxr2 dl{ border:1px solid #dcdcdc;}
+.zxr2 dl dt{background-color:#dbdbdb;color:#353535;}
+.CLYJ_list{ border:1px solid #cecece; background:#f8f8f8; color:#757374;}
+.CLYJ_list ol{color:#757374;}
+.CLYJ_list ul{border-left:1px solid #cecece;}
+#Sqfl{border:1px solid #d1d1d1;border-bottom:none;background-color:#fff;}
+#Sqfl li{ border-bottom:1px solid #d1d1d1;}
+#Sqfl li a:hover{background-color:#f2f2f2;color:#000;}
+#Xzfl{border:1px solid #d1d1d1;border-bottom:none;background-color:#fff;}
+#Xzfl li{border-bottom:1px solid #d1d1d1;}
+#Xzfl li a:hover{color:#000; font-weight:bold;}
+#searchfl li{border-bottom:1px solid #d1d1d1;}
+#searchfl li a:hover{background-color:#f2f2f2;color:#000;font-weight:bold;}
+.searchDiv .searchfl{background:url(images/searchbg.gif) repeat-x;}
+.searchDiv ul#searchfl{border:1px solid #d1d1d1;border-bottom:none;background-color:#fff;}
+.tree_tab ul li.tab_on .tabm{background:url(images/tabmiddle.gif);}
+.tree_tab ul li.tab_on .tabl{ background:url(images/dq_tableft.gif);}
+.tree_tab ul li.tab_on .tabr{ background:url(images/dq_tabright.gif);}
+.tree_tab ul li.tab_off .tabr{background:url(images/dq_tabmiddle.gif) right 4px no-repeat;}
+.tree,.treeczbt,.tree_list,.tsearchbt{border:1px solid #e2e2e2;}
+.tree_tab,.tree_list,.tree_list p,.Ptree_list,.Ptree_list p,.Ptree_list1 p,.Ptree_list1,.tree_list2,.tree_list2 p{/* background:url(images/tabbg.gif) repeat-x; */
+background:#f1f1f1;
+}
+.tree_chose{background:none;}
+.male{background:url(images/male_list.gif) 8px 8px no-repeat;background-color:#fff;}
+.female{background:url(images/female_list.gif) 8px 7px no-repeat;background-color:#fff;}
+.tree_list ul li,.tree_list2 ul li{border-bottom:1px solid #eeeeee;}
+.tree_list ul li.chosed,.Ptree_list ul li.chosed,.tree_list2 ul li.chosed{background-color:#dedede;}
+.LiOver{ background-color:#e9e9e9;}
+.Ptree_list ul li.LiOver,.tree_list2 ul li:hover,.Ptree_list ul li:hvoer{ background-color:#e9e9e9;}
+.tree_list ul li.LiSelect,.tree_list2 ul li.LiSelect{background-color:#d2d2d2;}
+.operate a{text-decoration:underline; color:#a2113c;}
+.fjTable thead tr td{background:#f5f5f5; font-weight:bold; color:#505050;}
+#fjList,#fjList2{border:1px solid #d1d1d1;background:#ffffff;}
+#fjList li.close_me,#fjList2 li.close_me{background: #d1d1d1 url(../images/fjbj.gif) repeat-x;}
+.productAbout h1{background:#f2f2f2 url(images/leftT.png) 5px 6px no-repeat;border-bottom:1px solid #eaeaea;}
+.MainTabs{background:url(images/leftToolBg.jpg) repeat-x;}
+.MainTabs .TabLeft{
+	 background:url(images/TabLeft.jpg) no-repeat; 
+	
+	}
+.MainTabs .TabRight{
+	background:url(images/TabRight.jpg) no-repeat;
+	}
+.treeczbt,.hjczbt{
+	/* background:url(images/graybtbg.gif); */
+	background:#fff;
+	}
+
+.PhoneB .PhoneT span{background:url(images/TelTelL1.jpg) no-repeat;}
+.PhoneB .PhoneT input.T{background:url(images/TelTelB.jpg) repeat-x;}
+.PhoneB .PhoneT input.D{background:url(images/TelTelBT2.jpg) no-repeat;}
+.infor_BtnAddlist{background:url(images/add_list_bt.gif) no-repeat;}
+.en_add_list_bt{background:url(images/en_add_list_bt.gif) no-repeat;}
+.close,.PPTitle,.PPTitle1{background: url(images/PPTitle.jpg) 0 0 repeat-x;}
+.PPTitle span,.PPTitle1 span,.close span{background:url(images/PPTImg.png) 5px 5px no-repeat;}
+
+.PageFTab{background:url(images/dian.gif) left bottom repeat-x;}
+.PageFTab ul li{border:1px solid #b9b9b9;color:#505050;}
+.PageFTab ul li.LiOver{ background:#f4f4f4;color:#000;}
+.PageFMain{border:1px solid #b9b9b9; border-top:0 none; background:#f4f4f4;}
+
+.TongjiDiv{background:#f7f7f7;border-right:1px solid #e4e4e4;}
+.TongjiDiv ul{border:1px solid #e4e4e4;color:#8F8F8F;}
+.TongjiDiv ul li span{color:#000;}
+/*鎼存洟鍎�/
+.Footer{border-top:1px solid #a8a8a8; background:#f2f2f2;}
+
+.TDTj,.TDTj2,.TDTj3{background-color:#FFF;border:1px solid #cfcfcf;}
+/*閹存垹娈戦崥灞肩皑*/
+.TongShi{border:1px solid #aeaeae;}
+.TongShiTree{border:1px solid #fff; border-right:1px solid #aeaeae; background:#f5f5f5;}
+
+.qscz ul ol{border:1px solid #aeaeae;background:#fff;}
+.qscz ul ol li:hover{background:#f0f0f0;}
+.cylist ul.all{background-color:#FFF;border:1px solid #c2c2c2;}
+.ToolBtn .Red{border:1px solid #9d9d9d;color:#000000;}
+.top_BtDiv{background:#f7f7f7;border:1px solid #e4e4e4;}
+.TongzhiShowH div{border:1px dotted #e1e1e1;background:#f7f7f7;}
+.TongzhiShowH div ol{border:1px solid #e1e1e1;background:#fff;}
+.TongzhiShowH div ol li:hover{background:#f0f0f0;}
+
+.TongzhiFJ{ border:1px dotted #e1e1e1; background:#f7f7f7;}
+.TongzhiFJ a{ color:#911515;}
+
+.LCShowTable{border-left:1px solid #d7d7d7; border-top:1px solid #d7d7d7;}
+.LCShowTable td{border-bottom:1px solid #d7d7d7; border-right:1px solid #d7d7d7;}
+.LCShowTable .stepbg{background:url(../images/stepbg.gif);}
+.LCShowTable .LCN ul{border:1px solid #d4d4d4; background:#eeeeee;}
+.hjlist{border:1px solid #d7d7d7;}
+.hjlist ul li.hjlist_dq{ background-color:#f7f7f7; color:#FFF;}
+.hjczbt{border:1px solid #d7d7d7;}
+
+.bd{border:1px solid #ccc;}
+.cylist1{border:1px solid #cecece;}
+#fjList,.#fjList2{border:1px solid #d1d1d1;background:#ffffff;}
+.aboutIM{border-bottom:1px solid #dedede;}
+.NewGNList h1{color:#4a4a4a;}
+.NewGNList p.IMmktit{background-color:#dedede;}
+.QList li p{ border:1px solid #c6c6c7;background:#f3f3f3; color:#484848;}
+.ProShow dl{border:1px solid #c6c6c7; background:#f3f3f3; }
+.Ptsearchbt,.Ptree_list,.Ptree_list1,.Ptree_list1 ul li,.Ptree_list ul li,.tsearchbtLeft,.tree_list2{border:1px solid #a4a4a4;}
+.Ptree_list ul li{border:none; border-bottom:1px solid #dedede;}
+.Ptree_list1 ul li{border:none; border-bottom:1px solid #dedede;}
+.Ptree .pageDiv{background-color:#f1f1f1;}
+.TabVideo{border:1px #b6b6b6 solid;}
+.VideoList li{background:#efefef;}
+.VideoList li.checked{background:#c3dfed;}
+
+.DivAddclient2{border:1px solid #CECECE;background:#FFFFFF;}
+.leave_day{border-left:1px solid #cecece;border-top:1px solid #cecece;}
+.leave_day thead tr td{background:#e4e4e4}
+.leave_day td{border-bottom:1px solid #cecece; border-right:1px solid #cecece;}
+.dhhy h1{background:#f2f2f2 url(images/leftT.png) 5px 6px no-repeat;border-bottom:1px solid #eaeaea;}
+.Addlscy{background:#FFFFFF; width:300px; border:1px solid #CECECE;}
+.Addlscy .tit {background:#e1e1e1; border:1px solid #c6c6c6;}
+.Addlscy .tit p{background:#fff; border:1px solid #c6c6c6; border-bottom:none;}
+.Addlscy .addbtn,.searchbtn{background:url(images/btns.jpg) no-repeat; border:none;}
+
+.zhiku input.ZK_Btn{color:#fff;background:url(images/zk_r1_c2.gif) no-repeat; border:0 none;}
+.set_div{background-color:#f6f6f6;border:1px solid #d1d1d1;}
+.xinzhiInput input.XZBtn{border:0 none; background:url(images/xinzhi.png) no-repeat;color:#fff;}
+
+/*缁涙儳鍩�/
+.leftlist{border:1px solid #cdccca;}
+.leftlist h1{background:#e9e9e9; color:#333;}
+.Qsearch{background:#f8f6f7; border-bottom:1px solid #cdccca;}
+.Qsearch p{border:1px solid #e3e3e3; background:#FFFFFF;}
+.Qsearch p .Qtxt{color:#787878;}
+.Qsearch p .Qbtnsearch{background:url(images/QbtnsearchG.jpg) center no-repeat;}
+.qdlist dt{color:#890000; border-bottom:1px #dedede solid;}
+.qdlist dd{border-bottom:1px #dedede solid;} 
+.qdlist dd a:hover{color:#890000; }
+.ghbgcolor{background:#f8f6f7;}
+.rightmap{ border:1px solid #cdccca;}
+.MInputRL2{border:1px solid #e3e3e3;}
+.Qsearch2 p{border:1px solid #e3e3e3; background:#FFFFFF;}
+.Qsearch2{background:#f8f6f7; border-bottom:1px solid #cdccca;}
+
+/*鐎广垺鍩涢崚鍡樼�*/
+.fxtulist li .DTu{background:#f7f7f7;}
+.fxtixlist li{background:#f9f9f9; border:1px solid #e3e3e3;}
+
+/*=========================================CRM缂佺厧鎮庢い鐢告桨-xiawei=====================================*/
+
+.Dabout img{border:1px solid #b9b9b9;}
+/*閺冨爼妫垮ù浣鼓侀崸锟�
+.flow_time{background:#fcfcfc; border:1px solid #d1d1d1;}
+
+.contact_main{ border:1px solid #cacaca;}
+.contact_details{ border:1px solid #cacaca;}
+
+/*閸熷棙婧�Ο鈥虫健*/
+.oppotunities{border:1px solid #cacaca;}
+.oppotunities_liover{border:1px solid #cacaca;border-bottom:none;}
+/*鐞涖劌宕熷Ο鈥虫健*/
+.detailed_form{border:1px solid #cacaca; background-color:#e1e1e1;}
+.detailed_form .details{border:1px solid #cacaca;}
+.custom_Tab{background: url(images/dian.gif) repeat-x scroll 0 24px transparent;}
+.custom_Tab li{background:url(images/TabBg1.jpg) repeat-x scroll 0 0 transparent;border: 1px solid #B3B3B3;;}
+
+/*闁俺鐦界拋鏉跨秿濡�娼�/
+.call_records{ border:1px solid #cacaca;}
+
+/*===========================================================================  閸氬骸褰村Ο鈥虫健 ===========================================================================*/
+.admin_body{background:#dadada}
+.admin_Left{margin-top:0; border:1px solid #bcbcbc; background:#FFFFFF;width:209px;float:left;}
+.admin_right{margin:5px 0 0 217px; border:1px solid #bcbcbc; background:#ffffff;}
+.Header2{background:url(images/top_bg.jpg) repeat-x;}
+.describe {background:url(images/des_bg.jpg) repeat-x;color:#fff; }
+.fjgn ul .xgmm{background:url(images/xgmm_bg.png) left no-repeat}
+.fjgn ul .xgmm:hover{background:url(images/xgmm_bg1.png) left no-repeat}
+.fjgn ul .zlxz{background:url(images/zlxz_bg.png) left no-repeat}
+.fjgn ul .zlxz:hover{background:url(images/zlxz_bg1.png) left no-repeat}
+.fjgn ul .tc{background:url(images/tc_bg.png) left no-repeat}
+.fjgn ul .tc:hover{background:url(images/tc_bg1.png) left no-repeat}
+.MenuDiv2 li ul li:hover , .MenuDiv2 li ul li.checked{background-color:#ececec; color:#9c0c21;}
+.MenuDiv2 li ul li:focus{ background-color:#ececec;}
+.areamanage_top {background: url(images/areamanage_menu_top_bg.jpg) repeat-y;}
+.areamanage_menu .link {background:url(images/menu_link_bg.jpg) repeat-x;}
+.fjgn a{color:#313030;}
+.fjgn a:hover{color:#d22f2f;}
+
+/*=========================================CRM缂佺厧鎮庢い鐢告桨-xiawei=====================================*/
+
+.Dabout img{border:1px solid #b9b9b9;}
+/*閺冨爼妫垮ù浣鼓侀崸锟�
+.flow_time{background:#fcfcfc; border:1px solid #d1d1d1;}
+
+.contact_main{ border:1px solid #cacaca;}
+.contact_details{ border:1px solid #cacaca;}
+
+/*閸熷棙婧�Ο鈥虫健*/
+.oppotunities{border:1px solid #cacaca; background:#f8f8f8;}
+.oppotunities_liover{border:5px solid #cacaca;border-bottom:none;}
+/*鐞涖劌宕熷Ο鈥虫健*/
+.details{border:5px solid #cacaca;}
+.custom_Tab{background: url(images/dian.gif) repeat-x scroll 0 24px transparent;}
+.custom_Tab li{background:url(images/TabBg1.jpg) repeat-x scroll 0 0 transparent;border: 1px solid #B3B3B3;;}
+
+/*闁俺鐦界拋鏉跨秿濡�娼�/
+.call_records{ border:1px solid #cacaca;}
+

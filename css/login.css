@@ -1,0 +1,181 @@
+
+.top-nav {
+	width: 100%;
+	height: 68px;
+	margin: 2% 0 -5px 0;
+}
+
+.top-nav img {
+	margin: -10px  0 0 10px;
+}
+
+
+
+.main-content {
+	background: url(../image/login/loginbg.png);
+	
+	/* background: #CCCCCC; */
+	width: 100%;
+	height: 528px;
+}
+.img-div  ul li{
+	display: block;
+	margin: 15px 0 0 0;
+	width: 100%;
+	
+}
+.img-div ol li{
+	list-style: none;
+}
+.login-cont {
+	width: 340px;
+	height: 400px;
+	position: absolute;
+	/*background: #fff;*/
+	margin: 50px 0 0 68%;
+	
+}
+.login-bg {
+	width: 340px;
+	height: 400px;
+	position: absolute;
+	background: #fff;
+	border:1px #e2e2e2 solid;
+	margin: 50px 0 0 68%;
+	filter:alpha(opacity=90);   
+      -moz-opacity:0.9;   
+      -khtml-opacity: 0.9;   
+      opacity: 0.9;   
+    
+	
+}
+.input-con {
+	background: #fff;
+	width: 236px;
+	height: 38px;
+	line-height: 42px;
+	border: 1px #CCCCCC solid;
+	margin: 20px 0 5px 70px;
+	outline: none;
+}
+
+.input-yan {
+	height: 38px;
+	width: 162px;
+	 line-height: 42px;
+	border: 1px #CCCCCC solid;
+	margin: 20px 0 5px 28px;
+	outline: none;
+}
+
+.one,
+.two {
+	display: block;
+	position: absolute;
+	background: #CCCCCC;
+	width: 38px;
+	height: 38px;
+	margin: 20px 0 0 30px;
+	border: 1px #CCCCCC solid;
+}
+
+.one {
+	background-image: url(../image/login/user.png);
+	background-repeat: no-repeat;
+	background-position: 12px 10px;
+}
+
+.two {
+	background-image: url(../image/login/-lock.png);
+	background-repeat: no-repeat;
+	background-position: 12px 10px;
+}
+
+.three {
+	display: block;
+	width: 100px;
+	height: 38px;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	line-height: 42px;
+	position: relative;
+	margin: -44px 0 0 210px;
+
+	
+}
+
+.btn-sub {
+	width: 288px;
+	height: 38px;
+	background: #44abe5;
+	border:1px #44abe5 solid;
+	
+	color: #fff;
+	outline: none;
+	font-size: 20px;
+	letter-spacing: 10px;
+	margin: 30px 0 0 26px;
+}
+.btn-sub:hover{
+	background:#279bdd;
+}
+.img-fa {
+	margin: 20px 0 0 26px;
+}
+
+input[placeholder] {
+	padding-left: 10px;
+	color: 16px;
+}
+
+.forget {
+	width: 288px;
+	height: 26px;
+	
+	line-height: 26px;
+	margin: 10px 0 0 26px;
+}
+
+.check {
+	width: 26px;
+	height: 26px;
+}
+
+.pass-rem {
+	display: block;
+	margin: -32px 0 0 30px;
+	font-size: 14px;
+	color: #333333;
+}
+
+.change {
+	display: block;
+	margin: -26px 0 0 180px;
+	color: #e5a800;
+	cursor: pointer;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+
+.bottom-cont {
+	width: 100%;
+    color: #787878;
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    left:0;
+    bottom: 0;
+   	position:fixed;
+    
+}
+
+#errorId{
+	color:red;
+	position:absolute;
+	margin:404px 0 0 78%
+	
+}

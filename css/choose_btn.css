@@ -1,0 +1,154 @@
+.choose-btn-wrap li {
+    float: left;
+    position: relative;
+    margin: 0 4px 4px 0;
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 1px
+}
+
+.choose-btn-wrap li a {
+    float: left;
+    background-color: #fff;
+    white-space: nowrap;
+    width: auto!important;
+    min-width: 10px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid #b8b7bd;
+    color: #000;
+    text-decoration: none
+}
+
+.choose-btn-wrap li a.disabled {
+    border: 1px dashed #ccc;
+    cursor:not-allowed;
+    color: #ccc;
+}
+
+.choose-btn-wrap li a:focus {
+    outline: 0
+}
+
+.choose-btn-wrap li a:hover {
+    border: 2px solid #e4393c;
+    margin: -1px
+}
+
+.choose-btn-wrap li a.disabled:hover {
+  /*   border: 1px dashed #ccc; */
+
+}
+
+.choose-btn-wrap li.tb-selected a {
+    border: 2px solid #e4393c;
+    margin: -1px
+}
+
+.choose-btn-wrap li.tb-selected a:hover {
+    border: 2px solid #e4393c;
+    margin: -1px
+}
+
+.choose-btn-wrap li.tb-selected li a {
+    border: 1px solid #e2e1e3;
+    margin: 0
+}
+
+.choose-btn-wrap li span {
+    padding-left: 1px
+}
+
+.choose-btn-wrap i {
+	/* display: none */
+}
+
+.choose-btn-wrap .tb-selected i {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 12px;
+	height: 12px;
+	overflow: hidden;
+	background-position: -202px -224px;
+	background-image: url(images/newicon20140417.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.cust_chk_box li {
+	float: left;
+	position: relative;
+	margin: 0 10px 10px 0;
+	line-height: 50px;
+	vertical-align: middle;
+	padding: 1px;
+}
+
+.cust_chk_box li a {
+	float: left;
+	background-color: #fff;
+	white-space: nowrap;
+	width: auto !important;
+	min-width: 10px;
+	padding: 0 10px;
+	text-align: center;
+	border: 1px solid #b8b7bd;
+	color: #000;
+	text-decoration: none;
+	font-size:24px;
+	font-family: verdana,"Microsoft YaHei",SimHei,SimSun;	
+}
+
+.cust_chk_box li a:hover {
+	border: 2px solid #DAE7F6;
+	margin: -1px
+}
+
+.cust_chk_box li a:focus {
+	outline: 0
+}
+
+.cust_chk_box li.tb-selected a {
+	border: 2px solid #be0106;
+	margin: -1px
+}
+
+.cust_chk_box li.tb-selected a:hover {
+	border: 2px solid #be0106;
+	margin: -1px
+}
+
+.cust_chk_box li.tb-selected li a {
+	border: 1px solid #e2e1e3;
+	margin: 0
+}
+
+.cust_chk_box li span {
+	padding-left: 1px
+}
+
+.cust_chk_box i {
+	/* display: none */
+}
+
+.cust_chk_box .tb-selected i {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 12px;
+	height: 12px;
+	overflow: hidden;
+	text-indent: -99em;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: -61px -28px
+}
+
+.cust_chk_box .tb-selected i {
+	background-image: url(/images/tps/i2/T1GC5gFrRcXXcQYSjX-137-63.png);
+}

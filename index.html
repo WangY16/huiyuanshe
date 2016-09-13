@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta content="email=no" name="format-detection" />
+		<meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL" />
+		<meta name="screen-orientation" content="portrait">
+		<link rel="stylesheet" href="./css/base.css" type="text/css"></link> 
+		<link rel="stylesheet" href="./css/common.css" type="text/css"></link>
+		<link rel="stylesheet" href="./css/page.css" type="text/css"></link>
+		<link rel="stylesheet" href="../css/businessCommon.css" type="text/css"></link>
+		<link rel="stylesheet" href="./css/zTreeStyle.css" type="text/css"></link>
+		<!--<link rel="stylesheet" href="../../../css/themes/default/easyui.css" type="text/css"></link>-->
+		<link rel="stylesheet" href="./css/themes/style.css" type="text/css"></link>
+		<link rel="stylesheet" href="./css/themes/emoa/skin.css" type="text/css"></link>
+		<link rel="stylesheet" href="./css/jquery.alerts.css" type="text/css"></link>
+		<title>惠员社</title>
+		<style type="text/css">
+			.content {
+				width: 1080px;
+				margin: 0 auto;
+			}
+			.head {
+				width: 1080px;
+				height: 84px;
+				background-image: url(img/thead.png);
+			}
+			.banner {
+				width: 1080px;
+				height: 400px;
+				background-image: url(img/tbanner.png);
+			}
+			.content-qiang {
+				width: 1080px;
+				min-height: 450px;
+				height: auto;
+				/*background-image: url(img/content_qiang.png);*/
+				background-color: #F39800;
+			}
+			.content-chong {
+				width:1080px;
+				height:620px;
+				background-image: url(img/content_chong.png);
+			}
+			
+			.content-body {
+				width:480px;
+				margin: 0 auto;
+			}
+			
+			.content-body ul li {
+				display: inline-block;
+				margin-top: 80px;
+				margin-left: 110px;
+				float : left;
+				height:40px;
+				width:100px;
+				text-align: center;
+				background-color: #FBFC0D;
+				color:#FF7F00;
+				line-height: 40px;
+				border-radius: 40px;
+				font-weight: bolder;
+				font-size: 16px;
+				cursor: pointer;
+			} 
+			.content-body ul .tab-select {
+				background-color: white;
+				color:#9E9E9E;
+			}
+			.foot {
+				width:1080px;
+				height:516px;
+				background-image: url(img/foot.png);
+			}
+			.title-head,.product-list {
+				width:820px;
+				margin:0 auto;
+				
+			}
+			.title-head span{
+				font-size:24px;
+				color:#FBFC0D;
+			}
+			.product-list-child {
+				display: inline-block;
+				float: left;
+				margin:10px 20px;
+			} 
+			.product-list-child-ba {
+				width:220px;
+				height:300px;
+			}
+			.product-list-child-ba p{
+				text-align: center;
+				font-size:16px;
+				color:#FBFC0D;
+			}
+			.mtfu {
+				margin-top: -55px;
+			}
+			.qiang-btn {
+				width:100px;
+				height:30px;
+				line-height: 30px;
+				text-align: center;
+				margin:0 auto;
+				border-radius: 30px;
+				background-color: #D2D2D2;
+				color:white;
+				cursor: pointer;
+				font-weight: bolder;
+			}
+			.qiang-btn-abled {
+				background-color: #FBFC0D;
+				color:#FF7F00;
+			}
+			.content-table .content-table-tr {
+				width:550px;
+				height:60px;
+				line-height: 60px;
+			}
+			.content-table .content-table-tr * {
+				font-size: 15px;
+			}
+			.content-table .content-table-tr label{
+				padding-left: 110px;
+			}
+			.content-table .content-table-tr input {
+				border-radius: 30px;
+				outline:none;
+				
+			}
+			.pro-list {
+				float:left;
+				width:370px;
+				
+			}
+			.pro-list div{
+				float:left;
+				display: inline-block;
+				width:45px;
+				height:45px;
+				border-radius: 45px;
+				line-height: 45px;
+				text-align: center;
+				background-color: white;
+				color:#A7A7A7;
+				margin :5px;
+				cursor: pointer;
+			}
+			.pro-list .pro-select{
+				background-color: #FF9900;
+				color: white;
+			}
+			.xiaoshou {
+				color:#FF2D6B;
+				margin-left: 20px;
+			}
+			.shichang {
+				margin-left: 20px;
+				text-decoration: line-through;
+				color: #98999D;
+			}
+			.zhifu-style {
+				width:50px;
+				height:50px;
+				display: inline-block;
+				margin: 10px;
+				background-color: white;
+				border-radius: 50px;
+			}
+			.zhifu-style img {
+			    width: 30px;
+			    height: 30px;
+			    vertical-align: sub;
+			    margin-left: 10px;
+			}
+			.chongzhi-btn {
+				background-color: #FFF100;
+			    color: #FF7000;
+			    width: 140px;
+			    height: 40px;
+			    text-align: center;
+			    margin:20px auto;
+			    line-height: 40px;
+			    border-radius: 40px;
+			    cursor: pointer;
+			    font-weight: bolder;
+			    font-size: 20px;
+			}
+			
+			.zhifu-style-select {
+				/*border:2px solid #FF7000;*/
+				background-color: #FF9900;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<div class="head">
+
+			</div>
+			<div class="banner">
+				
+			</div>
+			<div class="content-chong">
+				<div class="title-head">
+					<p class="f20"><img src="img/chongzhi.png" /><span class="ml10">惠员社充值享特别折扣，移动流量85折...</span></p>
+				</div>
+				<div class="content-body">
+					<div class="clearfix">
+						<ul>
+							<li class="tab-select">流量充值</li>
+							<li>话费充值</li>
+						</ul>
+					</div>
+					<div class="content-table">
+						<div class="content-table-tr mt20">
+							<label>充值号码</label>
+							<input type="text" id="phone_number" class="ui-input ml10" maxlength="11" autocomplete="off" placeholder="请输入手机号码" />
+						</div>
+						<div class="content-table-tr clearfix">
+							<label class="fl">选择流量</label>
+							<div class="ml10 pro-list">
+								<div class="pro-select">500M</div>
+								<div>20M</div>
+								<div>20M</div>
+							</div>
+						</div>
+						<div class="content-table-tr clearfix">
+							<label class="fl">销售价格</label>
+							<div class="fl"><span class="xiaoshou">30元</span><span class="shichang">市场价格：40元</span></div>
+						</div>
+						<div class="content-table-tr clearfix">
+							<label class="fl">支付方式</label>
+							<div class="fl"><div class="zhifu-style zhifu-style-select"><img src="img/weixin.png" /></div> <div class="zhifu-style"><img src="img/zhifubao.png" /></div></div>
+						</div>
+					</div>
+					<div class="chongzhi-btn">
+						立即充值
+					</div>
+				</div>
+			</div>
+			<div class="content-qiang">
+				<div class="title-head">
+					<p class="f20"><img src="img/huiyuan.png" /><span class="ml10">超值精品，每天9场等您来抢...</span></p>
+				</div>
+				<div class="product-list clearfix">
+					
+					<div class="product-list-child">
+						<div class="product-list-child-ba" >
+							<img src="img/500m-pro.png">
+							<p class="mtfu">每天9点、14点、16点</p>
+							<p>整点五折秒杀</p>
+						</div>
+						<div class="qiang-btn qiang-btn-abled">进行中...</div>
+					</div>
+					
+					<div class="product-list-child">
+						<div class="product-list-child-ba" >
+							<img src="img/1g-pro.png">
+							<p class="mtfu">每天9点、14点、16点</p>
+							<p>整点五折秒杀</p>
+						</div>
+						<div class="qiang-btn ">即将开始</div>
+					</div>
+					<div class="product-list-child">
+						<div class="product-list-child-ba" >
+							<img src="img/2g-pro.png">
+							<p class="mtfu">每天9点、14点、16点</p>
+							<p>整点五折秒杀</p>
+						</div>
+						<div class="qiang-btn">即将开始</div>
+					</div>
+				</div>
+			</div>
+			<div class="foot">
+				<div class="title-head">
+					<p class="f20"><img src="img/oneyuan.png" /><span class="ml10">微信零钱赚起来，流量.话费一元夺...</span></p>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/x-handlebars-template" id="TAB_CONTNET_ONEORTEO">
+
+			<div class="content-table-tr mt20">
+				<label>充值号码</label>
+				<input type="text" id="phone_number" class="ui-input ml10" maxlength="11" autocomplete="off" placeholder="请输入手机号码" />
+			</div>
+			<div class="content-table-tr clearfix">
+				<label class="fl">充值面值</label>
+				<div class="ml10 pro-list">
+					{{#if this}}
+						{{#each this}}
+						<div {{#if_eq @index compare=0}}class="pro-select"{{/if_eq}}   data-resourceId="{{resourceId}}"  data-fee="{{fee}}" data-parValue="{{parValue}}">{{perSize}}{{#if_eq resourceType compare=1}}元{{else}}M{{/if_eq}}</div>
+						<div>20M</div>
+						<div>20M</div>
+						{{/each}}
+					{{/if}}
+				</div>
+			</div>
+			<div class="content-table-tr clearfix">
+				<label class="fl">销售价格</label>
+				<div class="fl"><span class="xiaoshou"  id="sale-money" >30元</span><span class="shichang" id="discount-money">市场价格：40元</span></div>
+			</div>
+			<div class="content-table-tr clearfix">
+				<label class="fl">支付方式</label>
+				<div class="fl"><div class="zhifu-style zhifu-style-select"><img src="img/weixin.png" /></div> <div class="zhifu-style"><img src="img/zhifubao.png" /></div></div>
+			</div>
+
+		</script>
+		
+		
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../../js/handlebars/3.0.3/handlebars.js"></script>
+		<script type="text/javascript" src="../../../js/handlebars/3.0.3/helpers.js"></script>
+		<script type="text/javascript" src="../../../js/adddate.js"></script>
+		<script type="text/javascript" src="../../../js/jquery.ztree.core-3.5.min.js"></script>
+		<script type="text/javascript" src="../../../js/jqueryeasyui.js"></script>
+		<script type="text/javascript" src="../../../js/jquery.alerts.js"></script>
+		<script type="text/javascript" src="../../../js/conf/config.js"></script>
+		<script type="text/javascript" src="../../../js/common.js"></script>
+		<script type="text/javascript" src="../../../js/mailList.js"></script>
+		
+		<script type='text/javascript'>
+			//  输入框输入的号码
+			window.phone = "";
+			$(function(){
+				
+				//tab切换     流量话费充值
+				$(".content-body ul li").off("click").on("click",function(){
+					var index = $(this).index();
+					$(this).addClass("tab-select").siblings().removeClass("tab-select");
+					window.phone = "";
+					if (index == 0) {
+						//流量充值
+						
+						ininGetpro(1);
+					} else {
+						//话费充值
+						
+						ininGetpro(2);
+					}
+				});
+				
+				ininGetpro("1");
+				
+				
+				
+				
+			});
+			
+			/**
+			 * 获取充值产品信息
+			 */
+			function ininGetpro(flag) {
+				$.ajax({  
+			 		url:'<%=path%>/personalCharge/toIndexList',       
+					type:'post',
+					cache:false,
+					data:{"mobile":$("#phone_number").val()},
+					dataType:'json',  
+			 		success:function(data) {
+			 			if (data.ret == 0) {
+			 				Comm.tips("","",data.msg,"");
+			 			} else {
+				 			loadTpl(flag,data);
+			 			}
+			 		},
+			 		error:function(){
+			 			Comm.tips("","","","");
+			 		}
+				})
+			}
+			
+			/**
+			 *  模板加载
+			 *  @param data   模板数据
+			 *  @param flag   流量话费充值  1流量  2话费
+			 */
+			function loadTpl(data,flag) {
+				var dataList = data.data;
+				var dataListLen = dataList.length;
+				var newDataList = [];
+				
+				if (flag == 1) {
+					for (var i = 0;i < dataListLen; i++) {
+						if (dataList[i].resourceType == 1) {
+							newDataList.push(dataList[i]);
+						}
+					}
+				} else {
+					for (var i = 0;i < dataListLen; i++) {
+						if (dataList[i].resourceType == 2) {
+							newDataList.push(dataList[i]);
+						}
+					}
+				}
+				var contentTpl = Handlebars.compile($("#TAB_CONTNET_ONEORTEO").html());
+				$(".content-table").html(contentTpl(newDataList));
+				if (window.phone) {
+					$("#phone_number").val(window.phone);
+				}
+				tplEven();
+			}
+			
+			/**
+			 *   模板事件
+			 */
+			
+			function tplEven(){
+				
+				
+				/* 手机号码校验 */
+				$("#phone_number").off("keyup").on("keyup", function(){
+		   			  var val = $(this).val();
+		   			  var newVal = val.replace(/\D/g,''); 
+		   			  $(this).val(newVal);
+		   		  }).off("blur").on("blur",function(){
+		   			  var val = $(this).val();
+		   			  var newVal = val.replace(/\D/g,'');
+		   			  $(this).val(newVal);
+		   			  if (newVal.length == 11) {
+		   				  window.phone = newVal;
+		   			  	 //手机号码输入完成时加载模板
+		   			  	 var flag = $(".content-body ul li.tab-select").index == 0 ? 1 : 2;
+		   			  	ininGetpro(flag);
+		   			  	
+		   			  }
+		   		})
+				
+				
+				proSelected();
+				paySlsecter();
+			}
+			proSelected();
+			paySlsecter();
+
+			/**
+			 *  产品选择
+			 */
+			function proSelected() {
+				$(".pro-list div").off("click").on("click",function(){
+					$(this).addClass("pro-select").siblings().removeClass("pro-select");
+					var fee = $(this).attr("data-fee");
+					var parvalue = $(this).attr("data-parvalue");
+					saleMoney(fee,parvalue);
+				})
+				$(".pro-list div:eq(0)").click();
+			}
+			/**
+			 * 销售售价
+			 */
+			function saleMoney(fee,parvalue){
+				$("#discount-money").html("市场价格：" + parseFloat(parvalue) + "元");
+				$("#sale-money").html(fee + "元");
+			}
+			
+			
+			
+			paySlsecter()
+			/**
+			 * 支付方式选择
+			 */
+			function paySlsecter() {
+				$(".zhifu-style").off("click").on("click",function(){
+					$(this).addClass("zhifu-style-select").siblings().removeClass("zhifu-style-select");
+				})
+			}
+		</script>
+	</body>
+</html>

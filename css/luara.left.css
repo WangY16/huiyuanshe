@@ -1,0 +1,20 @@
+
+/*左滑*/
+
+.luara-left {
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+}
+
+.luara-left ul {
+	position: relative;
+	
+	margin: 6px 0 0 0;
+}
+
+.luara-left ul li {
+	float: left;
+	list-style: none;
+}
+

@@ -1,0 +1,80 @@
+
+a {
+color: #ff9900;
+}
+
+#mytable {
+width: 100%;
+padding: 0;
+margin: 0;
+}
+img{
+	border:none;
+}
+caption {
+padding: 0 0 5px 0;
+width: 100%;
+font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+text-align: right;
+}
+
+th {/* font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; */color: #787878;border-right: 1px solid #e2e2e2;border-bottom: 1px solid #e2e2e2;border-top: 1px solid #e2e2e2;letter-spacing: 2px;text-transform: uppercase;text-align: left;padding: 6px 6px 6px 12px;background: #e2e2e2 no-repeat;border-right: none;}
+
+.calendarForm th{
+	padding:3px;
+}
+.calendarForm td{
+	padding:3px;
+}
+
+
+th.nobg {
+border-top: 0;
+border-left: 0;
+border-right: 1px solid #C1DAD7;
+background: none;
+}
+
+td {border-right: 1px solid #e2e2e2;border-bottom: 1px solid #e2e2e2;background: #fff;font-size:12px;padding: 0px 6px 6px 12px;color: #4f6b72;}
+
+
+td.alt {
+background: #F5FAFA;
+color: #797268;
+}
+
+th.spec {
+border-left: 1px solid #C1DAD7;
+border-top: 0;
+background: #fff no-repeat;
+font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+th.specalt {
+border-left: 1px solid #C1DAD7;
+border-top: 0;
+background: #f5fafa no-repeat;
+font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+color: #797268;
+}
+
+html>body td{ font-size:12px;}
+body,td,th {
+font-family:Microsoft YaHei;
+font-size: 12px;
+}
+
+
+ .button {
+    border:1px #fdd000 solid;
+    color: #333;
+    font-size:12px;  
+    line-height: 20px;
+    width:76px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background:#fff;
+    cursor: pointer;
+  
+}
